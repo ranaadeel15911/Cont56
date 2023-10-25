@@ -22,7 +22,7 @@ export default async function  Home() {
     {services.map((serv)=>{
       return (
 <>
-<h1>{serv.titile}</h1>
+<h2>{serv.titile}</h2>
 <p>{serv.discussion}</p>
 </>
     )
